@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contact"
+    android:background="#4FC1A7">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/rectangular"
+        android:layout_marginTop="50dp"
+        android:id="@+id/name"
+        android:hint="  Name"
+        android:textSize="40dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/rectangular"
+        android:layout_marginTop="50dp"
+        android:id="@+id/contact"
+        android:layout_below="@+id/name"
+        android:hint="  contact"
+        android:textSize="40dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/rectangular"
+        android:layout_marginTop="50dp"
+        android:id="@+id/email"
+        android:layout_below="@+id/contact"
+        android:hint="  Email"
+        android:textSize="40dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="submit"
+        android:layout_marginLeft="180dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
